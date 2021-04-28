@@ -1,0 +1,6 @@
+sudo openssl dhparam -out ~/icertbot/src/production/dh-param/dhparam-2048.pem 2048
+
+#Copy site content to ~/icertbot/src/production/production-site/
+
+cd ~/icertbot/rc/production
+sudo docker-compose up -d
